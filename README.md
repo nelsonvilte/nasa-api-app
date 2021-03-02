@@ -1,3 +1,7 @@
+# Proyecto de prueba: Consumiendo un API Rest desde React
+
+Del webinar gratuito Academia Móviles, caso práctico.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
