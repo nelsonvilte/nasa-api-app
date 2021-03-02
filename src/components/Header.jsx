@@ -1,29 +1,24 @@
-import React from 'react';
+import React from "react";
 
 const Header = () => {
-    return (
-        <nav className='navbar navbar-dark bg-dark d-flex justify-content-center'>
-        <div className='container-fluid d-flex justify-content-center align-items-center'>
-          <a className='navbar-brand' href='https://api.nasa.gov/' target='blank'>
-            <img
-              src='https://images.nasa.gov/images/nasa_logo-large.ee501ef4.png'
-              alt=''
-            />
+  return (
+    <nav className="navbar navbar-dark bg-dark d-flex justify-content-center">
+      <div className="container-fluid d-flex justify-content-center align-items-center">
+        <a className="navbar-brand" href="https://api.nasa.gov/" target="blank">
+          <img
+            src="https://images.nasa.gov/images/nasa_logo-large.ee501ef4.png"
+            alt=""
+          />
+        </a>
+        <h1 className="text-white text-center">
+          Explorando con{" "}
+          <a className="text-white" href="https://api.nasa.gov/" target="blank">
+            NASA APIs
           </a>
-          <h1 className='text-white text-center'>
-            Working with{' '}
-            <a
-              className='text-white'
-              href='http://www.academiamoviles.com/view/cursos_desarrollo.php?idlp=221&amp;param=tbReact.js'
-              target='blank'
-            >
-              Mundo Cyberia
-            </a>
-          </h1>
-        </div>
-      </nav>
-  
-    );
+        </h1>
+      </div>
+    </nav>
+  );
 };
 
 export default Header;

@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Search = () => {
+const Search = ({ onCallToApi }) => {
+  const [word, setWord] = useState("");
+
   const handleChange = (e) => {
-    console.log("mira el evento");
-    console.log(e.target.value);
+    setWord(e.target.value);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    onCallToApi(word);
   };
 
   return (
