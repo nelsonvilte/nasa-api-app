@@ -6,12 +6,11 @@ const Card = ({ info }) => {
   return (
     <div className="col mb-3">
       <div className="card h-100">
-        <div style={{ maxHeight: "17em" }}>
+        <div className="div-img">
           <img
             src={info.links[0].href}
             className="card-img-top img-fluid"
             alt="..."
-            style={{ maxHeight: "100%" }}
           />
         </div>
         <div className="card-body">
