@@ -1,6 +1,7 @@
 # Proyecto de prueba: Consumiendo un API Rest desde React
 
 Del webinar gratuito Academia Móviles, caso práctico.
+Se utilizó la API **NASA Image and Video Library**, una API publica para acceder al sitio de la Biblioteca de imágenes y videos de la NASA en **images.nasa.gov**
 
 # Getting Started with Create React App
 
