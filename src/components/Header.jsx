@@ -10,12 +10,7 @@ const Header = () => {
             alt=""
           />
         </a>
-        <h1 className="text-white text-center">
-          Explorador{" "}
-          <a className="text-white" href="https://api.nasa.gov/" target="blank">
-            NASA APIs
-          </a>
-        </h1>
+        <h1 className="text-white text-center">NASA API App</h1>
       </div>
     </nav>
   );
