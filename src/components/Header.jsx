@@ -11,7 +11,7 @@ const Header = () => {
           />
         </a>
         <h1 className="text-white text-center">
-          Explorando con{" "}
+          Explorador{" "}
           <a className="text-white" href="https://api.nasa.gov/" target="blank">
             NASA APIs
           </a>
