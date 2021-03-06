@@ -1,8 +1,6 @@
 import React from "react";
 
 const Card = ({ info }) => {
-  console.log("miora el info");
-  console.log(info);
   return (
     <div className="col mb-3">
       <div className="card h-100">
