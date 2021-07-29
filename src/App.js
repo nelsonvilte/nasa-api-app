@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import Search from "./components/Search";
 import CardList from "./components/CardList";
 import { useEffect, useState } from "react";
+import Loader from "./components/loader/Loader";
+
 function App() {
   const [listItems, setListItems] = useState([]);
   const [isCalling, setIsCalling] = useState(true);
@@ -12,7 +14,7 @@ function App() {
     callToApi();
   }, []);
 
-  const callToApi = async (text = "Perseverance") => {
+  const callToApi = async (text = "ingenuity") => {
     setIsCalling(true);
     try {
       const respuesta = await fetch(
@@ -22,12 +24,12 @@ function App() {
       setListItems(res.collection.items);
       setIsCalling(false);
     } catch (error) {
-      console.log(error);
+      // console.log(error);
       setIsCalling(false);
     }
   };
 
-  if (isCalling) return <p>Cargando .....</p>;
+  if (isCalling) return <Loader />;
 
   return (
     <div className="App">
@@ -35,7 +37,7 @@ function App() {
       <main className=".bg-light">
         <section className="container">
           <div className="section-title  d-flex justify-content-center col-12 mt-4 ">
-            <h2>Explora la biblioteca de imágenes y vídeos de la NASA</h2>
+            <h2>Explora la biblioteca de imágenes de la NASA</h2>
           </div>
           <Search onCallToApi={callToApi} />
           <CardList listItems={listItems} />
