@@ -4,7 +4,11 @@ const Header = () => {
   return (
     <nav className="navbar navbar-dark bg-dark d-flex justify-content-center">
       <div className="container-fluid d-flex justify-content-center align-items-center">
-        <a className="navbar-brand" href="/" target="blank">
+        <a
+          className="navbar-brand"
+          href="https://nelsonvilte.github.io/nasa-api-app/"
+          target="blank"
+        >
           <img
             src="https://images.nasa.gov/images/nasa_logo-large.ee501ef4.png"
             alt=""
