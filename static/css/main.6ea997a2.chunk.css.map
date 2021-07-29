@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,SACE,eACF,CAEA,aACE,eACF","file":"main.6ea997a2.chunk.css","sourcesContent":[".div-img{ \n  max-height: 17em ;\n}\n\n.div-img img{\n  max-height: 100%;\n}"]}
