@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Card from "./Card";
 
-const ITEMS_PER_PAGE = 9;
+const ITEMS_PER_PAGE = 6;
 
 const CardList = ({ listItems }) => {
   const [currentPage, setCurrentPage] = useState(1);
