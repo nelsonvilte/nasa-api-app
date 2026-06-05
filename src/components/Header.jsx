@@ -10,8 +10,9 @@ const Header = () => {
           target="blank"
         >
           <img
-            src="https://images.nasa.gov/images/nasa_logo-large.ee501ef4.png"
-            alt=""
+            src={`${process.env.PUBLIC_URL}/logo_nasa_api_app.png`}
+            alt="logo nasa api app"
+            className="logo-branding"
           />
         </a>
         <h1 className="text-white text-center">NASA API App</h1>
