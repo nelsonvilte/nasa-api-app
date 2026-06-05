@@ -1,3 +1,9 @@
+.logo-branding {
+  width: 100px;     
+  height: auto;       
+  object-fit: contain; 
+}
+
 .div-img{ 
   max-height: 17em ;
 }
