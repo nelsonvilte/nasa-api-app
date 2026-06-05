@@ -1,0 +1,24 @@
+import React from "react";
+
+const Header = () => {
+  return (
+    <nav className="navbar navbar-dark bg-dark d-flex justify-content-center">
+      <div className="container-fluid d-flex justify-content-center align-items-center">
+        <a
+          className="navbar-brand"
+          href="https://nelsonvilte.github.io/nasa-api-app/"
+          target="blank"
+        >
+          <img
+            src={`${process.env.PUBLIC_URL}/logo_nasa_api_app.png`}
+            alt="logo nasa api app"
+            className="logo-branding"
+          />
+        </a>
+        <h1 className="text-white text-center">NASA API App</h1>
+      </div>
+    </nav>
+  );
+};
+
+export default Header;

@@ -1,0 +1,13 @@
+.logo-branding {
+  width: 100px;     
+  height: auto;       
+  object-fit: contain; 
+}
+
+.div-img{ 
+  max-height: 17em ;
+}
+
+.div-img img{
+  max-height: 50%;
+}
