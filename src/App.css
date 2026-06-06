@@ -4,10 +4,4 @@
   object-fit: contain; 
 }
 
-.div-img{ 
-  max-height: 17em ;
-}
 
-.div-img img{
-  max-height: 50%;
-}
